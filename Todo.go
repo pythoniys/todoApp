@@ -7,9 +7,9 @@ type Todo struct {
 }
 
 type UserTodo struct {
-	ID      int
-	User_ID int
-	Todo_ID int
+	ID     int
+	UserID int
+	TodoID int
 }
 
 type TodoItem struct {
@@ -20,7 +20,7 @@ type TodoItem struct {
 }
 
 type ListItem struct {
-	ID      int
-	Todo_ID int
-	Item_ID int
+	ID     int
+	TodoID int
+	ItemID int
 }
