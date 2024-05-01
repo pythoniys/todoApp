@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	if err := viper.ReadInConfig(); err != nil {
+	if err := initConfig(); err != nil {
 		log.Fatalf("Error reading config file, %s", err)
 	}
 	repo := repository.NewRepo()
